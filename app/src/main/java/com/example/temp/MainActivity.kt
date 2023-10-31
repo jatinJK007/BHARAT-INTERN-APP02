@@ -15,8 +15,6 @@ class MainActivity : AppCompatActivity() {
         val temp = findViewById<EditText>(R.id.temp)
         val tvres = findViewById<TextView>(R.id.tvres)
         val celtofar = findViewById<Button>(R.id.celtofar)
-//        val celtofar : Button?= null;
-//        celtofar!!.text= "click me "
         val fartocel = findViewById<Button>(R.id.fartocel)
 
         celtofar.setOnClickListener {
